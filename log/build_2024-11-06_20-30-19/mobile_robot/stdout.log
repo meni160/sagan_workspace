@@ -1,0 +1,12 @@
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Looking for gz-plugin3 -- found version 3.0.0
+-- Searching for dependencies of gz-plugin3
+-- Looking for gz-utils3 -- found version 3.0.0
+-- Searching for dependencies of gz-utils3
+-- Searching for <gz-utils3> component [cli]
+-- Looking for gz-utils3-cli -- found version 3.0.0
+-- Searching for dependencies of gz-utils3-cli
+-- Searching for <gz-plugin3> component [register]
+-- Looking for gz-plugin3-register -- found version 3.0.0
+-- Searching for dependencies of gz-plugin3-register
+-- Configuring incomplete, errors occurred!

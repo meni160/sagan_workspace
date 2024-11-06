@@ -47,6 +47,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/lucas/sagan_ws/src/mobile_robot/launch"
     "/home/lucas/sagan_ws/src/mobile_robot/model"
     "/home/lucas/sagan_ws/src/mobile_robot/parameters"
+    "/home/lucas/sagan_ws/src/mobile_robot/plugin"
     )
 endif()
 

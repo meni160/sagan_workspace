@@ -1,0 +1,1 @@
+Invoking command in '/home/lucas/sagan_ws/build/SampleSystem': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lucas/sagan_ws/src/plugin/system_plugin -DCMAKE_INSTALL_PREFIX=/home/lucas/sagan_ws/install/SampleSystem

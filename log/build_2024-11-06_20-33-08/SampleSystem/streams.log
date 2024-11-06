@@ -1,0 +1,263 @@
+[0.007s] Invoking command in '/home/lucas/sagan_ws/build/SampleSystem': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lucas/sagan_ws/src/plugin/system_plugin -DCMAKE_INSTALL_PREFIX=/home/lucas/sagan_ws/install/SampleSystem
+[0.051s] -- The C compiler identification is GNU 13.2.0
+[0.096s] -- The CXX compiler identification is GNU 13.2.0
+[0.107s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.176s] -- Detecting C compile features
+[0.177s] -- Detecting C compile features - done
+[0.184s] -- Detecting CXX compiler ABI info
+[0.259s] -- Detecting CXX compiler ABI info - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.267s] -- Looking for gz-plugin3 -- found version 3.0.0
+[0.267s] -- Searching for dependencies of gz-plugin3
+[0.269s] -- Looking for gz-utils3 -- found version 3.0.0
+[0.269s] -- Searching for dependencies of gz-utils3
+[0.270s] -- Searching for <gz-utils3> component [cli]
+[0.271s] -- Looking for gz-utils3-cli -- found version 3.0.0
+[0.271s] -- Searching for dependencies of gz-utils3-cli
+[0.272s] -- Searching for <gz-plugin3> component [register]
+[0.274s] -- Looking for gz-plugin3-register -- found version 3.0.0
+[0.274s] -- Searching for dependencies of gz-plugin3-register
+[0.276s] -- Looking for gz-sim9 -- found version 9.0.0
+[0.276s] -- Searching for dependencies of gz-sim9
+[0.278s] -- Looking for sdformat15 -- found version 15.0.0
+[0.278s] -- Searching for dependencies of sdformat15
+[0.281s] -- Checking for module 'tinyxml2'
+[0.289s] --   Found tinyxml2, version 10.0.0
+[0.319s] -- Looking for gz-math8 -- found version 8.0.0
+[0.319s] -- Searching for dependencies of gz-math8
+[0.319s] -- Looking for gz-utils3 -- found version 3.0.0
+[0.320s] -- Looking for gz-utils3 -- found version 3.0.0
+[0.320s] -- Looking for gz-plugin3 -- found version 3.0.0
+[0.320s] -- Searching for dependencies of gz-plugin3
+[0.321s] -- Looking for gz-utils3 -- found version 3.0.0
+[0.321s] -- Searching for <gz-plugin3> component [loader]
+[0.322s] -- Looking for gz-plugin3-loader -- found version 3.0.0
+[0.323s] -- Searching for dependencies of gz-plugin3-loader
+[0.323s] -- Searching for <gz-plugin3> component [register]
+[0.325s] -- Looking for gz-transport14 -- found version 14.0.0
+[0.325s] -- Searching for dependencies of gz-transport14
+[0.413s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[0.424s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.427s] -- Checking for module 'libzmq >= 4'
+[0.436s] --   Found libzmq, version 4.3.5
+[0.504s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.513s] -- Checking for module 'uuid'
+[0.530s] --   Found uuid, version 2.39.3
+[0.557s] -- Found UUID: TRUE  
+[0.557s] -- Looking for gz-utils3 -- found version 3.0.0
+[0.561s] -- Looking for gz-msgs11 -- found version 11.0.1
+[0.561s] -- Searching for dependencies of gz-msgs11
+[0.574s] -- Looking for gz-utils3 -- found version 3.0.0
+[0.574s] -- Looking for gz-math8 -- found version 8.0.0
+[0.680s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.682s] -- Searching for <gz-transport14> component [log]
+[0.685s] -- Looking for gz-transport14-log -- found version 14.0.0
+[0.686s] -- Searching for dependencies of gz-transport14-log
+[0.686s] -- Searching for <gz-transport14> component [parameters]
+[0.691s] -- Looking for gz-transport14-parameters -- found version 14.0.0
+[0.691s] -- Searching for dependencies of gz-transport14-parameters
+[0.692s] -- Looking for gz-msgs11 -- found version 11.0.1
+[0.695s] -- Looking for gz-common6 -- found version 6.0.0
+[0.695s] -- Searching for dependencies of gz-common6
+[0.695s] -- Looking for gz-utils3 -- found version 3.0.0
+[0.695s] -- Searching for dependencies of gz-utils3
+[0.696s] -- Searching for <gz-utils3> component [log]
+[0.697s] -- Looking for gz-utils3-log -- found version 3.0.0
+[0.698s] -- Searching for dependencies of gz-utils3-log
+[0.700s] -- Found Threads: TRUE  
+[0.708s] -- Searching for <gz-common6> component [av]
+[0.709s] -- Looking for gz-common6-av -- found version 6.0.0
+[0.709s] -- Searching for dependencies of gz-common6-av
+[0.713s] -- Checking for module 'libswscale'
+[0.729s] --   Found libswscale, version 7.5.100
+[0.775s] -- Found SWSCALE: TRUE  
+[0.781s] -- Checking for module 'libavdevice >= 56.4.100'
+[0.799s] --   Found libavdevice, version 60.3.100
+[0.865s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[0.872s] -- Checking for module 'libavformat'
+[0.902s] --   Found libavformat, version 60.16.100
+[0.989s] -- Found AVFORMAT: TRUE  
+[1.001s] -- Checking for module 'libavcodec'
+[1.034s] --   Found libavcodec, version 60.31.102
+[1.078s] -- Found AVCODEC: TRUE  
+[1.081s] -- Checking for module 'libavutil'
+[1.089s] --   Found libavutil, version 58.29.100
+[1.115s] -- Found AVUTIL: TRUE  
+[1.116s] -- Searching for <gz-common6> component [events]
+[1.118s] -- Looking for gz-common6-events -- found version 6.0.0
+[1.118s] -- Searching for dependencies of gz-common6-events
+[1.118s] -- Looking for gz-math8 -- found version 8.0.0
+[1.118s] -- Searching for <gz-common6> component [graphics]
+[1.120s] -- Looking for gz-common6-graphics -- found version 6.0.0
+[1.121s] -- Searching for dependencies of gz-common6-graphics
+[1.121s] -- Looking for gz-math8 -- found version 8.0.0
+[1.124s] -- Found GzAssimp: TRUE (found version "5.3.0") 
+[1.124s] -- Searching for <gz-common6> component [io]
+[1.126s] -- Looking for gz-common6-io -- found version 6.0.0
+[1.126s] -- Searching for dependencies of gz-common6-io
+[1.126s] -- Searching for <gz-common6> component [profiler]
+[1.128s] -- Looking for gz-common6-profiler -- found version 6.0.0
+[1.128s] -- Searching for dependencies of gz-common6-profiler
+[1.130s] -- Looking for gz-fuel_tools10 -- found version 10.0.0
+[1.130s] -- Searching for dependencies of gz-fuel_tools10
+[1.186s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  
+[1.192s] -- Checking for module 'jsoncpp'
+[1.202s] --   Found jsoncpp, version 1.9.5
+[1.227s] -- Found JSONCPP: TRUE  
+[1.238s] -- Checking for module 'yaml-0.1'
+[1.251s] --   Found yaml-0.1, version 0.2.5
+[1.307s] -- Found YAML: TRUE  
+[1.314s] -- Checking for module 'libzip'
+[1.339s] --   Found libzip, version 1.7.3
+[1.424s] -- Found ZIP: TRUE  
+[1.425s] -- Looking for gz-utils3 -- found version 3.0.0
+[1.426s] -- Looking for gz-common6 -- found version 6.0.0
+[1.426s] -- Searching for dependencies of gz-common6
+[1.427s] -- Looking for gz-utils3 -- found version 3.0.0
+[1.444s] -- Searching for <gz-common6> component [testing]
+[1.452s] -- Looking for gz-common6-testing -- found version 6.0.0
+[1.452s] -- Searching for dependencies of gz-common6-testing
+[1.454s] -- Looking for gz-math8 -- found version 8.0.0
+[1.455s] -- Looking for gz-msgs11 -- found version 11.0.1
+[1.463s] -- Looking for gz-gui9 -- found version 9.0.0
+[1.463s] -- Searching for dependencies of gz-gui9
+[1.487s] -- Looking for gz-utils3 -- found version 3.0.0
+[1.487s] -- Looking for gz-math8 -- found version 8.0.0
+[1.488s] -- Looking for gz-common6 -- found version 6.0.0
+[1.488s] -- Looking for gz-plugin3 -- found version 3.0.0
+[1.489s] -- Looking for gz-transport14 -- found version 14.0.0
+[1.494s] -- Looking for gz-rendering9 -- found version 9.0.0
+[1.494s] -- Searching for dependencies of gz-rendering9
+[1.495s] -- Looking for gz-math8 -- found version 8.0.0
+[1.495s] -- Searching for dependencies of gz-math8
+[1.496s] -- Looking for gz-utils3 -- found version 3.0.0
+[1.496s] -- Searching for <gz-math8> component [eigen3]
+[1.504s] -- Looking for gz-math8-eigen3 -- found version 8.0.0
+[1.505s] -- Searching for dependencies of gz-math8-eigen3
+[1.510s] -- Looking for gz-common6 -- found version 6.0.0
+[1.510s] -- Searching for dependencies of gz-common6
+[1.510s] -- Looking for gz-utils3 -- found version 3.0.0
+[1.518s] -- Searching for <gz-common6> component [graphics]
+[1.518s] -- Searching for <gz-common6> component [events]
+[1.519s] -- Searching for <gz-common6> component [geospatial]
+[1.524s] -- Looking for gz-common6-geospatial -- found version 6.0.0
+[1.524s] -- Searching for dependencies of gz-common6-geospatial
+[1.525s] -- Looking for gz-math8 -- found version 8.0.0
+[1.526s] -- Looking for gz-common6 -- found version 6.0.0
+[1.528s] -- Looking for gz-plugin3 -- found version 3.0.0
+[1.529s] -- Searching for dependencies of gz-plugin3
+[1.529s] -- Looking for gz-utils3 -- found version 3.0.0
+[1.530s] -- Searching for <gz-plugin3> component [all]
+[1.533s] -- Looking for all libraries of gz-plugin3 -- found version 3.0.0
+[1.534s] -- Looking for gz-plugin3 -- found version 3.0.0
+[1.535s] -- Looking for gz-utils3 -- found version 3.0.0
+[1.544s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[1.545s] -- Looking for gz-msgs11 -- found version 11.0.1
+[1.562s] -- Looking for gz-physics8 -- found version 8.0.0
+[1.562s] -- Searching for dependencies of gz-physics8
+[1.562s] -- Looking for gz-common6 -- found version 6.0.0
+[1.563s] -- Looking for gz-math8 -- found version 8.0.0
+[1.563s] -- Looking for gz-plugin3 -- found version 3.0.0
+[1.563s] -- Looking for gz-utils3 -- found version 3.0.0
+[1.564s] -- Searching for <gz-physics8> component [heightmap]
+[1.565s] -- Looking for gz-physics8-heightmap -- found version 8.0.0
+[1.565s] -- Searching for dependencies of gz-physics8-heightmap
+[1.566s] -- Looking for gz-common6 -- found version 6.0.0
+[1.566s] -- Searching for <gz-physics8> component [mesh]
+[1.568s] -- Looking for gz-physics8-mesh -- found version 8.0.0
+[1.568s] -- Searching for dependencies of gz-physics8-mesh
+[1.568s] -- Looking for gz-common6 -- found version 6.0.0
+[1.568s] -- Searching for <gz-physics8> component [sdf]
+[1.570s] -- Looking for gz-physics8-sdf -- found version 8.0.0
+[1.570s] -- Searching for dependencies of gz-physics8-sdf
+[1.570s] -- Looking for sdformat15 -- found version 15.0.0
+[1.572s] -- Looking for gz-sensors9 -- found version 9.0.0
+[1.572s] -- Searching for dependencies of gz-sensors9
+[1.584s] -- Looking for gz-math8 -- found version 8.0.0
+[1.584s] -- Looking for gz-common6 -- found version 6.0.0
+[1.584s] -- Looking for gz-transport14 -- found version 14.0.0
+[1.585s] -- Looking for gz-rendering9 -- found version 9.0.0
+[1.585s] -- Looking for gz-msgs11 -- found version 11.0.1
+[1.585s] -- Looking for sdformat15 -- found version 15.0.0
+[1.585s] -- Searching for <gz-sensors9> component [air_pressure]
+[1.587s] -- Looking for gz-sensors9-air_pressure -- found version 9.0.0
+[1.587s] -- Searching for dependencies of gz-sensors9-air_pressure
+[1.588s] -- Searching for <gz-sensors9> component [air_speed]
+[1.590s] -- Looking for gz-sensors9-air_speed -- found version 9.0.0
+[1.590s] -- Searching for dependencies of gz-sensors9-air_speed
+[1.590s] -- Searching for <gz-sensors9> component [altimeter]
+[1.592s] -- Looking for gz-sensors9-altimeter -- found version 9.0.0
+[1.592s] -- Searching for dependencies of gz-sensors9-altimeter
+[1.592s] -- Searching for <gz-sensors9> component [imu]
+[1.594s] -- Looking for gz-sensors9-imu -- found version 9.0.0
+[1.594s] -- Searching for dependencies of gz-sensors9-imu
+[1.594s] -- Searching for <gz-sensors9> component [force_torque]
+[1.596s] -- Looking for gz-sensors9-force_torque -- found version 9.0.0
+[1.596s] -- Searching for dependencies of gz-sensors9-force_torque
+[1.596s] -- Searching for <gz-sensors9> component [logical_camera]
+[1.598s] -- Looking for gz-sensors9-logical_camera -- found version 9.0.0
+[1.598s] -- Searching for dependencies of gz-sensors9-logical_camera
+[1.599s] -- Searching for <gz-sensors9> component [magnetometer]
+[1.600s] -- Looking for gz-sensors9-magnetometer -- found version 9.0.0
+[1.600s] -- Searching for dependencies of gz-sensors9-magnetometer
+[1.601s] -- Searching for <gz-sensors9> component [navsat]
+[1.603s] -- Looking for gz-sensors9-navsat -- found version 9.0.0
+[1.603s] -- Searching for dependencies of gz-sensors9-navsat
+[1.603s] -- Searching for <gz-sensors9> component [dvl]
+[1.605s] -- Looking for gz-sensors9-dvl -- found version 9.0.0
+[1.605s] -- Searching for dependencies of gz-sensors9-dvl
+[1.605s] -- Looking for gz-sensors9 -- found version 9.0.0
+[1.605s] -- Searching for dependencies of gz-sensors9
+[1.617s] -- Looking for gz-math8 -- found version 8.0.0
+[1.617s] -- Looking for gz-common6 -- found version 6.0.0
+[1.617s] -- Looking for gz-transport14 -- found version 14.0.0
+[1.618s] -- Looking for gz-rendering9 -- found version 9.0.0
+[1.618s] -- Looking for gz-msgs11 -- found version 11.0.1
+[1.618s] -- Looking for sdformat15 -- found version 15.0.0
+[1.618s] -- Searching for <gz-sensors9> component [rendering]
+[1.620s] -- Looking for gz-sensors9-rendering -- found version 9.0.0
+[1.620s] -- Searching for dependencies of gz-sensors9-rendering
+[1.621s] -- Searching for <gz-sensors9> component [rendering]
+[1.621s] -- Searching for <gz-sensors9> component [lidar]
+[1.623s] -- Looking for gz-sensors9-lidar -- found version 9.0.0
+[1.623s] -- Searching for dependencies of gz-sensors9-lidar
+[1.623s] -- Looking for gz-sensors9 -- found version 9.0.0
+[1.623s] -- Searching for <gz-sensors9> component [gpu_lidar]
+[1.625s] -- Looking for gz-sensors9-gpu_lidar -- found version 9.0.0
+[1.625s] -- Searching for dependencies of gz-sensors9-gpu_lidar
+[1.625s] -- Looking for gz-sensors9 -- found version 9.0.0
+[1.626s] -- Searching for <gz-sensors9> component [camera]
+[1.627s] -- Looking for gz-sensors9-camera -- found version 9.0.0
+[1.627s] -- Searching for dependencies of gz-sensors9-camera
+[1.628s] -- Looking for gz-sensors9 -- found version 9.0.0
+[1.628s] -- Searching for <gz-sensors9> component [boundingbox_camera]
+[1.630s] -- Looking for gz-sensors9-boundingbox_camera -- found version 9.0.0
+[1.630s] -- Searching for dependencies of gz-sensors9-boundingbox_camera
+[1.630s] -- Searching for <gz-sensors9> component [segmentation_camera]
+[1.632s] -- Looking for gz-sensors9-segmentation_camera -- found version 9.0.0
+[1.632s] -- Searching for dependencies of gz-sensors9-segmentation_camera
+[1.632s] -- Searching for <gz-sensors9> component [depth_camera]
+[1.634s] -- Looking for gz-sensors9-depth_camera -- found version 9.0.0
+[1.634s] -- Searching for dependencies of gz-sensors9-depth_camera
+[1.634s] -- Looking for gz-sensors9 -- found version 9.0.0
+[1.635s] -- Searching for <gz-sensors9> component [rgbd_camera]
+[1.637s] -- Looking for gz-sensors9-rgbd_camera -- found version 9.0.0
+[1.637s] -- Searching for dependencies of gz-sensors9-rgbd_camera
+[1.637s] -- Looking for gz-sensors9 -- found version 9.0.0
+[1.637s] -- Searching for <gz-sensors9> component [thermal_camera]
+[1.639s] -- Looking for gz-sensors9-thermal_camera -- found version 9.0.0
+[1.639s] -- Searching for dependencies of gz-sensors9-thermal_camera
+[1.639s] -- Looking for gz-sensors9 -- found version 9.0.0
+[1.640s] -- Searching for <gz-sensors9> component [wide_angle_camera]
+[1.641s] -- Looking for gz-sensors9-wide_angle_camera -- found version 9.0.0
+[1.641s] -- Searching for dependencies of gz-sensors9-wide_angle_camera
+[1.642s] -- Looking for gz-rendering9 -- found version 9.0.0
+[1.642s] -- Looking for gz-math8 -- found version 8.0.0
+[1.643s] -- Looking for gz-utils3 -- found version 3.0.0
+[1.655s] -- Configuring done (1.6s)
+[1.664s] -- Generating done (0.0s)
+[1.664s] -- Build files have been written to: /home/lucas/sagan_ws/build/SampleSystem

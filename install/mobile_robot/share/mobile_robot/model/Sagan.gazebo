@@ -76,6 +76,18 @@
             <joint_name>LF_wheel_joint</joint_name>
             <joint_name>LR_wheel_joint</joint_name>
         </plugin>
+    
+        <plugin filename="SampleSystem"
+            name="sample_system::SampleSystem">
+        </plugin>
+        
+        <plugin filename="SampleSystem"
+                name="sample_system::SampleSystem2">
+        </plugin>
+
+
     </gazebo>
+
+
 
 </robot>

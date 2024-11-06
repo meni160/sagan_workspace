@@ -1,0 +1,4 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/SampleSystem.dir/SampleSystem.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/SampleSystem.dir/SampleSystem2.cc.o[0m
+[100%] [32m[1mLinking CXX shared library libSampleSystem.so[0m
+[100%] Built target SampleSystem

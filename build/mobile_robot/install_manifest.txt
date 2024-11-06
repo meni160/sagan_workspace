@@ -15,6 +15,10 @@
 /home/lucas/sagan_ws/install/mobile_robot/share/mobile_robot/model/robot.gazebo
 /home/lucas/sagan_ws/install/mobile_robot/share/mobile_robot/model/robot.xacro
 /home/lucas/sagan_ws/install/mobile_robot/share/mobile_robot/parameters/bridge_parameters.yaml
+/home/lucas/sagan_ws/install/mobile_robot/share/mobile_robot/plugin/system_plugin/SampleSystem.cc
+/home/lucas/sagan_ws/install/mobile_robot/share/mobile_robot/plugin/system_plugin/SampleSystem.hh
+/home/lucas/sagan_ws/install/mobile_robot/share/mobile_robot/plugin/system_plugin/CMakeLists.txt
+/home/lucas/sagan_ws/install/mobile_robot/share/mobile_robot/plugin/system_plugin/SampleSystem2.cc
 /home/lucas/sagan_ws/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
 /home/lucas/sagan_ws/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
 /home/lucas/sagan_ws/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh

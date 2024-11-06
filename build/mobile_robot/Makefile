@@ -197,6 +197,67 @@ mobile_robot_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mobile_robot_uninstall.dir/build.make CMakeFiles/mobile_robot_uninstall.dir/build
 .PHONY : mobile_robot_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named SampleSystem
+
+# Build rule for target.
+SampleSystem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SampleSystem
+.PHONY : SampleSystem
+
+# fast build rule for target.
+SampleSystem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleSystem.dir/build.make CMakeFiles/SampleSystem.dir/build
+.PHONY : SampleSystem/fast
+
+plugin/system_plugin/SampleSystem.o: plugin/system_plugin/SampleSystem.cc.o
+.PHONY : plugin/system_plugin/SampleSystem.o
+
+# target to build an object file
+plugin/system_plugin/SampleSystem.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleSystem.dir/build.make CMakeFiles/SampleSystem.dir/plugin/system_plugin/SampleSystem.cc.o
+.PHONY : plugin/system_plugin/SampleSystem.cc.o
+
+plugin/system_plugin/SampleSystem.i: plugin/system_plugin/SampleSystem.cc.i
+.PHONY : plugin/system_plugin/SampleSystem.i
+
+# target to preprocess a source file
+plugin/system_plugin/SampleSystem.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleSystem.dir/build.make CMakeFiles/SampleSystem.dir/plugin/system_plugin/SampleSystem.cc.i
+.PHONY : plugin/system_plugin/SampleSystem.cc.i
+
+plugin/system_plugin/SampleSystem.s: plugin/system_plugin/SampleSystem.cc.s
+.PHONY : plugin/system_plugin/SampleSystem.s
+
+# target to generate assembly for a file
+plugin/system_plugin/SampleSystem.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleSystem.dir/build.make CMakeFiles/SampleSystem.dir/plugin/system_plugin/SampleSystem.cc.s
+.PHONY : plugin/system_plugin/SampleSystem.cc.s
+
+plugin/system_plugin/SampleSystem2.o: plugin/system_plugin/SampleSystem2.cc.o
+.PHONY : plugin/system_plugin/SampleSystem2.o
+
+# target to build an object file
+plugin/system_plugin/SampleSystem2.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleSystem.dir/build.make CMakeFiles/SampleSystem.dir/plugin/system_plugin/SampleSystem2.cc.o
+.PHONY : plugin/system_plugin/SampleSystem2.cc.o
+
+plugin/system_plugin/SampleSystem2.i: plugin/system_plugin/SampleSystem2.cc.i
+.PHONY : plugin/system_plugin/SampleSystem2.i
+
+# target to preprocess a source file
+plugin/system_plugin/SampleSystem2.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleSystem.dir/build.make CMakeFiles/SampleSystem.dir/plugin/system_plugin/SampleSystem2.cc.i
+.PHONY : plugin/system_plugin/SampleSystem2.cc.i
+
+plugin/system_plugin/SampleSystem2.s: plugin/system_plugin/SampleSystem2.cc.s
+.PHONY : plugin/system_plugin/SampleSystem2.s
+
+# target to generate assembly for a file
+plugin/system_plugin/SampleSystem2.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleSystem.dir/build.make CMakeFiles/SampleSystem.dir/plugin/system_plugin/SampleSystem2.cc.s
+.PHONY : plugin/system_plugin/SampleSystem2.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +273,13 @@ help:
 	@echo "... test"
 	@echo "... mobile_robot_uninstall"
 	@echo "... uninstall"
+	@echo "... SampleSystem"
+	@echo "... plugin/system_plugin/SampleSystem.o"
+	@echo "... plugin/system_plugin/SampleSystem.i"
+	@echo "... plugin/system_plugin/SampleSystem.s"
+	@echo "... plugin/system_plugin/SampleSystem2.o"
+	@echo "... plugin/system_plugin/SampleSystem2.i"
+	@echo "... plugin/system_plugin/SampleSystem2.s"
 .PHONY : help
 
 
