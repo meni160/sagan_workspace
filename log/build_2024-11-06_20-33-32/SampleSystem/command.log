@@ -1,1 +1,0 @@
-Invoking command in '/home/lucas/sagan_ws/build/SampleSystem': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lucas/sagan_ws/build/SampleSystem -- -j20 -l20

@@ -47,8 +47,16 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/lucas/sagan_ws/src/mobile_robot/launch"
     "/home/lucas/sagan_ws/src/mobile_robot/model"
     "/home/lucas/sagan_ws/src/mobile_robot/parameters"
-    "/home/lucas/sagan_ws/src/mobile_robot/plugin"
+    "/home/lucas/sagan_ws/src/mobile_robot/worlds"
     )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot/environment" TYPE FILE FILES "/home/lucas/sagan_ws/build/mobile_robot/ament_cmake_environment_hooks/mobile_robot.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot/environment" TYPE FILE FILES "/home/lucas/sagan_ws/build/mobile_robot/ament_cmake_environment_hooks/mobile_robot.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
